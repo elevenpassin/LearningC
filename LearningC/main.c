@@ -1,8 +1,8 @@
 #include "main.h"
-#include "dweight.h"
+#include "celsius.h"
 
 int main(void)
 {
-	dweight();
+	celsius();
 	return 0;
 }
