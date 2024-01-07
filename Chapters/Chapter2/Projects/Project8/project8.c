@@ -2,7 +2,7 @@
 
 float loan, interest, monthly_payment;
 
-float calc_remaining_bal(int month)
+void calc_remaining_bal(int month)
 {
 	float interest_rate = (interest / 100) / 12;
 
@@ -11,9 +11,8 @@ float calc_remaining_bal(int month)
 	for (int i = 0; i < month; i++)
 	{
 		balance = (balance - monthly_payment) + (balance * interest_rate);
+		printf("Balance remaining after %d payment(s): $%.2f\n", i + 1, balance);
 	}
-
-	return balance;
 }
 
 int main(void)
@@ -27,10 +26,7 @@ int main(void)
 	printf("Enter monthly payment: ");
 	scanf_s("%f", &monthly_payment);
 
-	
-	printf("Balance remaining after %d payment(s): $%.2f\n", 1, calc_remaining_bal(1));
-	printf("Balance remaining after %d payment(s): $%.2f\n", 2, calc_remaining_bal(2));
-	printf("Balance remaining after %d payment(s): $%.2f\n", 3, calc_remaining_bal(3));
+	calc_remaining_bal(10);
 
 	return 0;
 }
