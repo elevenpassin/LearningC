@@ -1,8 +1,11 @@
 #include "main.h"
-#include "celsius.h"
 
 int main(void)
 {
-	celsius();
+	int i, j;
+	float x, y;
+
+	scanf_s("%d%d%f%f", &i, &j, &x, &y);
+
 	return 0;
 }
