@@ -2,10 +2,5 @@
 
 int main(void)
 {
-	int i, j;
-	float x, y;
-
-	scanf_s("%d%d%f%f", &i, &j, &x, &y);
-
-	return 0;
+	printf("%6d,%4d", 86, 1040);
 }
