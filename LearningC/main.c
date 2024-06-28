@@ -2,5 +2,16 @@
 
 int main(void)
 {
-	printf("%6d,%4d", 86, 1040);
+
+	const int* arr = (const int[]){ 0, 1, 2, 3, 4 };
+
+	printf("Please enter an array index:\n");
+
+	int index;
+
+	scanf("%d", &index);
+
+	int element = arr[index];
+
+	printf("The value of the element at index %d is: %d", index, element);
 }
