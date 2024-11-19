@@ -8,8 +8,10 @@ int main(void)
 
 	scanf_s("%d", &i);
 
-	int x = i / 10;
-	int y = i % 10;
+	int first = i / 100;
+	int rem = i % 100;
+	int second = rem / 10;
+	int third = rem % 10;
 
-	printf("%d%d", y, x);
+	printf("%d%d%d", third, second, first);
 }
