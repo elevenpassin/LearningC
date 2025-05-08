@@ -6,7 +6,7 @@ int main(void) {
   int month, day, year;
 
   printf("Enter date (mm/dd/yy): ");
-  scanf_s("%d /%d /%d", &month, &day, &year);
+  scanf("%d /%d /%d", &month, &day, &year);
 
   printf("Dated this %d", day);
 

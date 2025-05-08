@@ -16,7 +16,7 @@ int main(void) {
 
   printf("Enter ISBN:");
 
-  scanf_s("(%d) %d-%d", &part1, &part2, &part3);
+  scanf("(%d) %d-%d", &part1, &part2, &part3);
 
   printf("%d.%d.%d", part1, part2, part3);
 }

@@ -33,7 +33,7 @@ int main(void) {
 
   printf("Enter ISBN:");
 
-  scanf_s("%d-%d-%d-%d-%d", &gsiPrefix, &groupIdentifier, &publisherCode,
+  scanf("%d-%d-%d-%d-%d", &gsiPrefix, &groupIdentifier, &publisherCode,
           &itemNumber, &checkDigit);
 
   printf("GSI prefix: %d\n", gsiPrefix);

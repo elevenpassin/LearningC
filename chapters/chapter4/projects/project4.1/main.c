@@ -5,7 +5,7 @@ int main(void) {
 
   int i;
 
-  scanf_s("%d", &i);
+  scanf("%d", &i);
 
   int x = i / 10;
   int y = i % 10;

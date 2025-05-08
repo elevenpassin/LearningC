@@ -8,7 +8,7 @@ int main(void) {
   unsigned long long upc;
 
   printf("Enter the first 11 digits of a UPC: ");
-  scanf_s("%llu", &upc);
+  scanf("%llu", &upc);
 
   d = upc / (unsigned long long)10000000000LL;
   int group1 = (upc % (unsigned long long)10000000000LL) / 100000;

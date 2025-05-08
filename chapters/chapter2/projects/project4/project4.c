@@ -6,7 +6,7 @@ int main(void) {
   float amt;
 
   printf("Enter ammount in dollars & cents: ");
-  scanf_s("%f", &amt);
+  scanf("%f", &amt);
 
   printf("With tax added: %.2f", amt + (0.05 * amt));
 

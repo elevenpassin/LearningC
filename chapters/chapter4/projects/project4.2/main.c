@@ -5,7 +5,7 @@ int main(void) {
 
   int i;
 
-  scanf_s("%d", &i);
+  scanf("%d", &i);
 
   int first = i / 100;
   int rem = i % 100;

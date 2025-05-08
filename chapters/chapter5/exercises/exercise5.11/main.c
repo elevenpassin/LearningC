@@ -5,7 +5,7 @@ int main(void) {
   int areaCode = 0;
 
   printf("Enter Area code: ");
-  scanf_s("%d", &areaCode);
+  scanf("%d", &areaCode);
 
   switch (areaCode) {
   case 229:

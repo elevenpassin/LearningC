@@ -5,7 +5,7 @@ void bills_needed(void) {
   int b20 = 0, b10 = 0, b5 = 0, b1 = 0;
 
   printf("Enter amt: ");
-  scanf_s("%d", &amt);
+  scanf("%d", &amt);
 
   while (amt > 0) {
     if (amt - 20 >= 0) {
@@ -34,7 +34,7 @@ void bills_needed_improved(void) {
   int b20 = 0, b10 = 0, b5 = 0, b1 = 0;
 
   printf("Enter amt: ");
-  scanf_s("%d", &amt);
+  scanf("%d", &amt);
 
   b20 = amt / 20;
   amt = amt - (b20 * 20);

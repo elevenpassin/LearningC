@@ -17,7 +17,7 @@ int main() {
   float x;
   int j;
 
-  scanf_s("%d%f%d", &i, &x, &j);
+  scanf("%d%f%d", &i, &x, &j);
 
   return 0;
 }

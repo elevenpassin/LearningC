@@ -9,7 +9,7 @@ int main(void) {
   unsigned long long ean = 869148426000;
 
   // printf("Enter the first 12 digits of a EAN: ");
-  // scanf_s("%llu", &ean);
+  // scanf("%llu", &ean);
 
   int group1 = (ean % (unsigned long long)1000000000000LL) / 1000000;
 

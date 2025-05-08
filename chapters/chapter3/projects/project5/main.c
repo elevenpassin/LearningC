@@ -19,7 +19,7 @@
  *
  * If the row, column and diagonal sums are all the same (as they are in this
  *example), the numbers are said to form a magic square. The magic square shown
- *here appears in a 1514 engraving by artist and mathematician Albrecht Dürer.
+ *here appears in a 1514 engraving by artist and mathematician Albrecht Dï¿½rer.
  *(Note that the middle numbers in the last row give the date of the engraving.)
  *
  */
@@ -31,7 +31,7 @@ int main(void) {
 
   printf("Enter the numbers from 1 to 16 in any order:\n");
 
-  scanf_s("%d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d", &i0, &i1, &i2, &i3,
+  scanf("%d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d", &i0, &i1, &i2, &i3,
           &i4, &i5, &i6, &i7, &i8, &i9, &i10, &i11, &i12, &i13, &i14, &i15);
 
   printf("\n%2d %2d %2d %2d\n", i0, i1, i2, i3);

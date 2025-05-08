@@ -15,13 +15,13 @@ void calc_remaining_bal(int month) {
 
 int main(void) {
   printf("Enter amount of loan: ");
-  scanf_s("%f", &loan);
+  scanf("%f", &loan);
 
   printf("Enter interest rate: ");
-  scanf_s("%f", &interest);
+  scanf("%f", &interest);
 
   printf("Enter monthly payment: ");
-  scanf_s("%f", &monthly_payment);
+  scanf("%f", &monthly_payment);
 
   calc_remaining_bal(10);
 

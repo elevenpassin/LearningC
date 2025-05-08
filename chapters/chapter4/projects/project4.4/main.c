@@ -4,7 +4,7 @@ int main(void) {
   int num;
 
   printf("Enter a number between 0 and 32767: ");
-  scanf_s("%d", &num);
+  scanf("%d", &num);
 
   int last = num % 8;
 

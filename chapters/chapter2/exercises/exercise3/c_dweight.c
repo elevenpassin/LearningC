@@ -9,13 +9,13 @@ void c_dweight(void) {
   int height, length, width, volume;
 
   printf("Enter height of the box: ");
-  scanf_s("%d", &height);
+  scanf("%d", &height);
 
   printf("Enter length of the box: ");
-  scanf_s("%d", &length);
+  scanf("%d", &length);
 
   printf("Enter width of the box: ");
-  scanf_s("%d", &width);
+  scanf("%d", &width);
 
   volume = height * length * width;
 
