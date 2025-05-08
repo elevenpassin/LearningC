@@ -1,23 +1,27 @@
 /*
-* Exercise 1:
-*/
+ * Exercise 1:
+ */
 
 #include <stdio.h>
 
 int main(void) {
-	int i = 5;
-	int j = 3;
+  int i = 5;
+  int j = 3;
 
-	printf("%d %d\n", i / j, i % j);
+  printf("%d %d\n", i / j, i % j);
 
-	i = 2; j = 3;
-	printf("%d\n", (i + 10) % j);
+  i = 2;
+  j = 3;
+  printf("%d\n", (i + 10) % j);
 
-	i = 7; j = 8;
-	int k = 9;
+  i = 7;
+  j = 8;
+  int k = 9;
 
-	printf("%d\n", (i + 10) % k / j);
+  printf("%d\n", (i + 10) % k / j);
 
-	i = 1; j = 2; k = 3;
-	printf("%d", (i + 5) % (j + 2) / k);
+  i = 1;
+  j = 2;
+  k = 3;
+  printf("%d", (i + 5) % (j + 2) / k);
 }
